@@ -1,14 +1,24 @@
 name: diocese_santos
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.4 <4.0.0'
+  sdk: ">=3.3.4 <4.0.0"
 
 dependencies:
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_mobx: ^2.2.1+1
+  flutter_modular: ^6.3.3
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  mobx: ^2.3.3+2
+  shared_preferences: ^2.2.3
 
 dev_dependencies:
   flutter_test:
