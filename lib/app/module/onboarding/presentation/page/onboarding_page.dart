@@ -1,3 +1,4 @@
+import 'package:diocese_santos/app/common/widgets/complex/screen.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingPage extends StatelessWidget {
@@ -5,10 +6,8 @@ class OnboardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Onboarding Page'),
-      ),
+    return const Screen(
+      child: Text('Onboarding Page'),
     );
   }
 }

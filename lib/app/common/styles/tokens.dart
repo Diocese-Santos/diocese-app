@@ -27,19 +27,17 @@ class _TpAssets {
 class _TpColors {
   _TpColors._();
   final white = const Color(0xffffffff);
-  final white10 = const Color(0xffF6FBFF);
-  final white20 = const Color(0xffE2EDF5);
+  final white20 = const Color(0xffFCFCFC);
 
   final black = const Color(0xff000000);
 
-  final blue = const Color(0xff0573f3);
-  final blue90 = const Color(0xffD5E4FB);
+  final cyan = const Color(0xff309fb9);
 
-  final grey = const Color(0xff213241);
-  final grey70 = const Color(0xff424F63);
-  final grey50 = const Color(0xff728197);
-  final grey20 = const Color(0xff8593A8);
-  final grey10 = const Color(0xffDBE2EC);
+  final gray = const Color(0xff213241);
+  final gray20 = const Color(0xff353535);
+  final gray50 = const Color(0xff999999);
+  final gray80 = const Color(0xffd2d2d2);
+  final gray90 = const Color(0xffe2e2e2);
 
   final green = const Color(0xff00CC5E);
 
@@ -49,6 +47,7 @@ class _TpColors {
 class _TpThemeColors {
   _TpThemeColors._();
   final background = Tp.colors.white20;
+  final primary = Tp.colors.cyan;
 }
 
 class _TpFonts {

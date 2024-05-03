@@ -20,7 +20,7 @@ class AppWidget extends StatelessWidget {
         title: 'Gotter Chat',
         theme: ThemeData(
           textTheme: GoogleFonts.spaceGroteskTextTheme(textTheme),
-          primaryColor: Tp.colors.blue,
+          primaryColor: Tp.colors.cyan,
         ),
         routeInformationParser: Modular.routeInformationParser,
         routerDelegate: Modular.routerDelegate,
